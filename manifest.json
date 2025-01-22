@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Translate Subtitle GameDev Iframe",
+  "version": "1.0",
+  "description": "Translate En->Fr subtitle gamedev iframe",
+  "permissions": ["*://*/*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
