@@ -17,7 +17,7 @@ De Python pour l'utilisation de LibreTranslate.
 
 ### Installation LibreTranslate
 
-Conception d'un environnement virtuel
+- [ ] Conception d'un environnement virtuel
 
 ```bash
 py -3.11 -m venv NOM_ENV
