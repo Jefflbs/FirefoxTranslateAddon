@@ -3,14 +3,26 @@
   "name": "Translate Subtitle GameDev Iframe",
   "version": "1.0",
   "description": "Translate En->Fr subtitle gamedev iframe",
-  "permissions": ["*://*/*"],
+  "permissions": [
+    "http://localhost/*",
+    "https://iframe.mediadelivery.net/*",
+    "https://assets.mediadelivery.net/*",
+    "*://*.b-cdn.net/*",
+    "https://www.gamedev.tv/*"
+  ],
   "background": {
     "scripts": ["background.js"],
     "persistent": true
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": [
+        "http://localhost/*",
+        "https://iframe.mediadelivery.net/*",
+        "https://assets.mediadelivery.net/*",
+        "*://*.b-cdn.net/*",
+        "https://www.gamedev.tv/*"
+      ],
       "js": ["content.js"]
     }
   ]
