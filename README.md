@@ -96,7 +96,8 @@ En attendant que ceux-ci valident l'extension pour pouvoir l'ajouter sur leurs b
 
 ## Utilisation
 
-Une fois l'installation effectué, se rendre sur votre formation gamedev.tv et cliquer sur le button **Open Iframe**
+Une fois l'installation effectué, se rendre sur votre formation gamedev.tv et cliquer sur le button **Open Iframe**.
+
 Qui se retrouve a droite du titre, comme le montre cette image :
 ![1737714023826](images/README/1737714023826.png)
 
