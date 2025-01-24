@@ -23,7 +23,7 @@ Tout d'abord, aller rechercher votre version ICU_Version. Pour cela,
 
 1️⃣ Ouvrir votre explorateur de fichier
 
-2️⃣ Accèder à votre disque système _C: par default_
+2️⃣ Accéder à votre disque système _C: par default_
 
 3️⃣ Suivez ce chemin : Dossier **Windows** ➤ Dossier **System32**
 
@@ -33,13 +33,13 @@ Tout d'abord, aller rechercher votre version ICU_Version. Pour cela,
 
 6️⃣ Rechercher la ligne **Version du fichier**
 
-Maintenant on va l'ajouter aux variables d'environnements.
+Maintenant, on va l'ajouter aux variables d'environnements.
 
 1️⃣ **Touche Windows + r**
 
 2️⃣ Coller ceci \***\*SystemPropertiesAdvanced\*\***
 
-3️⃣ Cliquer sur **Variables d'environnement** en bas à droite
+3️⃣ Cliquer sur **Variables d'environnements** en bas à droite
 
 4️⃣ Faire la manipulation suivante pour les deux sections : **Utilisateur** & **Système**
 
@@ -47,11 +47,11 @@ Maintenant on va l'ajouter aux variables d'environnements.
 
 0️⃣2️⃣ Nom Variable : **ICU_VERSION**
 
-0️⃣3️⃣ Valeur Variable : La valeur qui était renseigner dans la ligne **Version du fichier**
+0️⃣3️⃣ Valeur Variable : La valeur qui était renseignée dans la ligne **Version du fichier**
 
 0️⃣4️⃣ Appuyez sur **Ok**
 
-5️⃣Redémarrer votre ordinateur après avoir effectuer l'ajout.
+5️⃣ Redémarrer votre ordinateur après avoir effectué l'ajout.
 
 ### 2. Installation LibreTranslate
 
@@ -82,7 +82,7 @@ libretranslate --load-only en,fr
 ### 3. Installation extension (Firefox)
 
 A partir de l'étape 3, la manipulation sera a reproduire à chaque lancement de Firefox.
-En attendant que ceux-ci valident l'extension pour pouvoir l'ajouter sur leurs base de donnée.
+En attendant que ceux-ci valident l'extension pour pouvoir l'ajouter sur leur base de données.
 
 1️⃣ Télécharger le fichier zip en haut en cliquant sur **Code** ou en cliquant [ici](https://github.com/Jefflbs/FirefoxTranslateAddon/archive/refs/heads/main.zip)
 
