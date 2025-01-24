@@ -20,22 +20,37 @@ De Python pour l'utilisation de LibreTranslate.
 ### 1. Ajout ICU_Version
 
 Tout d'abord, aller rechercher votre version ICU_Version. Pour cela,
+
 1️⃣ Ouvrir votre explorateur de fichier
+
 2️⃣ Accèder à votre disque système _C: par default_
+
 3️⃣ Suivez ce chemin : Dossier **Windows** ➤ Dossier **System32**
+
 4️⃣ Rechercher le fichier **icu.dll**
+
 5️⃣ Clique droit ➤ **Propriété** ➤ **Détails**
+
 6️⃣ Rechercher la ligne **Version du fichier**
 
 Maintenant on va l'ajouter aux variables d'environnements.
+
 1️⃣ **Touche Windows + r**
+
 2️⃣ Coller ceci \***\*SystemPropertiesAdvanced\*\***
+
 3️⃣ Cliquer sur **Variables d'environnement** en bas à droite
+
 4️⃣ Faire la manipulation suivante pour les deux sections : **Utilisateur** & **Système**
+
 0️⃣1️⃣ Appuyez sur **Nouveau**
+
 0️⃣2️⃣ Nom Variable : **ICU_VERSION**
+
 0️⃣3️⃣ Valeur Variable : La valeur qui était renseigner dans la ligne **Version du fichier**
+
 0️⃣4️⃣ Appuyez sur **Ok**
+
 5️⃣Redémarrer votre ordinateur après avoir effectuer l'ajout.
 
 ### 2. Installation LibreTranslate
@@ -70,9 +85,13 @@ A partir de l'étape 3, la manipulation sera a reproduire à chaque lancement de
 En attendant que ceux-ci valident l'extension pour pouvoir l'ajouter sur leurs base de donnée.
 
 1️⃣ Télécharger le fichier zip en haut en cliquant sur **Code** ou en cliquant [ici](https://github.com/Jefflbs/FirefoxTranslateAddon/archive/refs/heads/main.zip)
+
 2️⃣ Extraire le zip ou vous souhaitez
+
 3️⃣ Rentrez cette url dans firefox : **about:debugging#/runtime/this-firefox**
+
 4️⃣ Cliquer sur "**Charger un module complémentaire temporaire**"
+
 5️⃣ Sélectionner le fichier **manifest.json** du zip que vous avez extrait
 
 ## Utilisation
