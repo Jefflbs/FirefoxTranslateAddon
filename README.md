@@ -55,25 +55,27 @@ Maintenant, on va l'ajouter aux variables d'environnements.
 
 ### 2. Installation LibreTranslate
 
-1️⃣ Conception d'un environnement virtuel
+1️⃣ Ouvrez votre invite de commande en administrateur.
+
+2️⃣ Conception d'un environnement virtuel
 
 ```bash
 py -3.11 -m venv NOM_ENV
 ```
 
-2️⃣ Activer l'environnement
+3️⃣ Activer l'environnement
 
 ```bash
 NOM_ENV\Scripts\activate
 ```
 
-3️⃣ Installer LibreTranslate
+4️⃣ Installer LibreTranslate
 
 ```bash
 pip install libretranslate
 ```
 
-4️⃣ Executer le program
+5️⃣ Executer le programme
 
 ```bash
 libretranslate --load-only en,fr
@@ -100,6 +102,22 @@ Une fois l'installation effectué, se rendre sur votre formation gamedev.tv et c
 
 Qui se retrouve a droite du titre, comme le montre cette image :
 ![1737714023826](images/README/1737714023826.png)
+
+Bien penser a relancer le programme **LibreTranslate** à chaque fois que vous quitter l'invite de commande ou redémarrage du pc.
+
+1️⃣ Ouvrez votre invite de commande en administrateur.
+
+3️⃣ Activer l'environnement
+
+```bash
+NOM_ENV\Scripts\activate
+```
+
+5️⃣ Executer le programme
+
+```bash
+libretranslate --load-only en,fr
+```
 
 ## License
 
