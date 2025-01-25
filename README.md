@@ -83,18 +83,9 @@ libretranslate --load-only en,fr
 
 ### 3. Installation extension (Firefox)
 
-A partir de l'étape 3, la manipulation sera a reproduire à chaque lancement de Firefox.
-En attendant que ceux-ci valident l'extension pour pouvoir l'ajouter sur leur base de données.
+1️⃣ Rendez-vous sur le site de Mozilla : [ici](https://addons.mozilla.org/fr/firefox/addon/translate-subtitle-gamedev/)
 
-1️⃣ Télécharger le fichier zip en haut en cliquant sur **Code** ou en cliquant [ici](https://github.com/Jefflbs/FirefoxTranslateAddon/archive/refs/heads/main.zip)
-
-2️⃣ Extraire le zip ou vous souhaitez
-
-3️⃣ Rentrez cette url dans firefox : **about:debugging#/runtime/this-firefox**
-
-4️⃣ Cliquer sur "**Charger un module complémentaire temporaire**"
-
-5️⃣ Sélectionner le fichier **manifest.json** du zip que vous avez extrait
+2️⃣ Appuyer sur **Ajouter à Firefox**
 
 ## Utilisation
 
